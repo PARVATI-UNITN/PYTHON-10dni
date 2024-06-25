@@ -2,13 +2,13 @@
 
 num1=float(input("Enter the first number: "))
 num2=float(input("Enter the second number: "))
+print("\n")
+
 while True:
     print("ARITHMETIC OPERATIONS AVAILABLE:\n")
     print("1- Addition\n2- Subtraction\n3- Multiplication\n4- Division\n5- Exponent\n6- Exit\n")
-    print("\n")
     operation=int(input("Enter the choice for arithmatic operation to be performed: "))
-    print("\n")
-
+    
     if operation==1:
         print("Addition: ",num1," + ",num2, " = ",num1+num2,"\n")
     elif operation==2:
