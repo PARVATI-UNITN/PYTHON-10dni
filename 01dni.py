@@ -17,7 +17,10 @@ while True:
     elif operation==3:
         print("Multiplication: ",num1," x ",num2," = ",num1*num2,"\n")
     elif operation==4:
-        print("Division: ",num1," / ",num2," = ",num1/num2,"\n")
+        if num2 != 0:
+            print("Division: ",num1," / ",num2," = ",num1/num2,"\n")
+        else:
+                print("Error! Division by zero.")
     elif operation==5:
     
         pwr=int(input("Enter the power of: "))
