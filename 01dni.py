@@ -10,6 +10,7 @@ while True:
     operation=int(input("Enter the choice for arithmatic operation to be performed: "))
     
     if operation==1:
+        #could use - print(f"The result of {num1} + {num2} is {num1+num2}")
         print("Addition: ",num1," + ",num2, " = ",num1+num2,"\n")
     elif operation==2:
         print("Subtraction: ",num1," - ",num2, " = ",num1-num2,"\n")
