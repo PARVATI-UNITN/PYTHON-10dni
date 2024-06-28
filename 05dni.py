@@ -1,10 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
 # Guess the number given as input by the user, using Bisection Search.
-
-# In[1]:
-
 
 #Doesn't the use user confirmation to give directions
 num = int(input("Enter the number to be guessed: "))
@@ -31,9 +25,6 @@ else:
     print("Out of the range [0-100]")
 
 
-# In[2]:
-
-
 #Make use of user confirmation to give directions
 num = int(input("Enter the number to be guessed: "))
 
@@ -56,10 +47,3 @@ if low <= num <= high:
             print('INVALID INPUT!')
 else:
     print("Out of the range [0-100]")
-
-
-# In[ ]:
-
-
-
-
