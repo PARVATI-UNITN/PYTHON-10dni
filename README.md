@@ -23,6 +23,13 @@ Simple program that prints the number of times the string 'bob' occurs in str. F
 
 5- 05dni:
 
+Consist of two ways first, doesn't use user confirmation to give directions. This uses an input checks if its with range ([0,100]-low=0, high=100) if not it prints 'Out of range'. If within the range then 
+checks if its below or above the median of the range if found high it changes variable low=((low+high)//2)-1 else high=((low+high)//2)+1 and if its equal to the guessed number i.e.((low+high)//2) then 
+print the number.
+
+Second asks for user input if guess is the answer (key is 's'), or if if guess is higher than guess (key is 'h'), or if guess is less than guess (key is 'l') and rest, does other functions similar to first 
+case.
+
 6- 06dni:
 
 7- 07dni:
