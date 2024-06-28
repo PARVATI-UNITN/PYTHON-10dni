@@ -19,6 +19,8 @@ Simple temperature converter program in Python that converts temperatures betwee
 
 4- 04dni:
 
+Simple program that prints the number of times the string 'bob' occurs in str. For example, if str= 'azcbobobegghakl' then it shows 'bob' occurred 1 time. It make use of function count.
+
 5- 05dni:
 
 6- 06dni:
