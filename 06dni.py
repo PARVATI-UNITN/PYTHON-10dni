@@ -1,19 +1,13 @@
-#!/usr/bin/env python
-# coding: utf-8
-
 # #Interview Programs
-# '''
-# 1- Fibonacci Series
-# 2- Prime Numbers
-# 3- Palindrome
-# 4- Factorials
-# 5- Armstrong Numbers
-# 6- Matrix Multiplication
-# 7- Alphabet Triangle
-# '''
-
-# In[9]:
-
+'''
+1- Fibonacci Series
+2- Prime Numbers
+3- Palindrome
+4- Factorials
+5- Armstrong Numbers
+6- Matrix Multiplication
+7- Alphabet Triangle
+'''
 
 #1- Fibonacci Series
 
@@ -26,9 +20,6 @@ for l in range(num):
     print(f"{l+1}- {i}+{j}={k}")
     i=j
     j=k
-
-
-# In[15]:
 
 
 #2- Prime Numbers
@@ -81,9 +72,6 @@ while True:
         print('INVALID CHOICE')
 
 
-# In[10]:
-
-
 #3- Palindrome
 
 word=input('ENTER THE WORD: ')
@@ -99,9 +87,6 @@ elif word==r_word:
      print(f'{word} is palindrome')
 
 
-# In[5]:
-
-
 #4- Factorials
 
 fact=int(input('ENTER THE NUMBER: '))
@@ -111,9 +96,6 @@ for i in range(fact):
     ans*=(i+1)
     
 print(f'Factorial of {fact} is {ans}')
-
-
-# In[26]:
 
 
 #5- Armstrong Numbers
@@ -132,4 +114,3 @@ if num3==num4:
     print(f'{num3} is an Armstrong Number')
 else:
     print(f'{num3} is not an Armstrong Number')
-
