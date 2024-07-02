@@ -1,17 +1,7 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 #Interview Programs
 '''
 6- Bubble Sort
 '''
-
-
-# In[1]:
-
 
 num = int(input("ENTER THE NUMBER OF ELEMENTS TO BE SORTED: "))
 num_list = []
@@ -28,4 +18,3 @@ for j in range(num):
             num_list[i], num_list[i + 1] = num_list[i + 1], num_list[i]
 
 print("Sorted List:", num_list)
-
