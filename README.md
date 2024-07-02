@@ -1,4 +1,4 @@
-PYTHOB-10dni
+PYTHON-10dni
 
 These are assignments that I undertake after watching tutorials from edX and Code with Harry tutorials on Introduction to Python. Doing so have greatly helped me in self-evaluating my skills and understanding.
 
