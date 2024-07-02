@@ -64,6 +64,10 @@ iteration and arithmetic operations.
 
 7- 07dni:
 
+Interview Program
+
+Bubble Sort: The program first asks the user how many elements they want to sort. It then prompts the user to enter each element one by one. Then the program sorts the list using the Bubble Sort algorithm. Bubble Sort works by repeatedly stepping through the list, comparing adjacent elements, and swapping them if they are in the wrong order. This process repeats until the list is sorted. The outer loop runs num times to ensure all elements are sorted. The inner loop runs from the start of the list to the second-last element (num - 1), comparing each element with the next one. If an element is greater than the next one, they are swapped and finally, the sorted list is printed.
+
 8- 08dni:
 
 9- 09dni:
