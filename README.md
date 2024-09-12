@@ -47,14 +47,15 @@ each number in the range. Option `3` exits the program when chosen. Any other in
 composite, and prompts the user to enter numbers above zero if they input a negative number.
 
 Palindrome: The python code checks whether a word entered by the user is a palindrome. It first reads the word input and creates a reversed version of it (`r_word`) using Python's slicing feature (`word[::-1]`). 
-It then compares the original word (`word`) with its reversed version (`r_word`). If they are not identical (`word != r_word`), it further checks if they are palindromes when case is ignored (`word.lower() == r_word.lower()`). 
-If this condition is true, it prints that the word is a palindrome when considering case insensitivity. If neither condition holds true, it concludes that the word is not a palindrome. If the original word is identical to 
-its reversed version (`word == r_word`), it directly prints that the word is a palindrome. This script efficiently determines if a word is a palindrome, considering both case-sensitive and case-insensitive criteria.
+It then compares the original word (`word`) with its reversed version (`r_word`). If they are not identical (`word != r_word`), it further checks if they are palindromes when case is ignored (`word.lower() ==
+r_word.lower()`). If this condition is true, it prints that the word is a palindrome when considering case insensitivity. If neither condition holds true, it concludes that the word is not a palindrome. If the original
+word is identical to its reversed version (`word == r_word`), it directly prints that the word is a palindrome. This script efficiently determines if a word is a palindrome, considering both case-sensitive and case
+insensitive criteria.
 
-Factorials: The python code computes the factorial of a number entered by the user. It begins by prompting the user to input a number (`fact`) for which the factorial needs to be calculated. It initializes `ans` to 1, which 
-will store the factorial result. Using a `for` loop that iterates from 0 to `fact-1`, it repeatedly multiplies `ans` by the current value of `i+1` (which represents the sequence of numbers from 1 to `fact`). After completing 
-the loop, it prints the computed factorial of `fact` using a formatted string that displays the original number and its factorial value. This script efficiently calculates factorials by iteratively multiplying values, 
-producing the factorial result for any non-negative integer input by the user.
+Factorials: The python code computes the factorial of a number entered by the user. It begins by prompting the user to input a number (`fact`) for which the factorial needs to be calculated. It initializes `ans` to 1,
+which will store the factorial result. Using a `for` loop that iterates from 0 to `fact-1`, it repeatedly multiplies `ans` by the current value of `i+1` (which represents the sequence of numbers from 1 to `fact`). After
+completing the loop, it prints the computed factorial of `fact` using a formatted string that displays the original number and its factorial value. This script efficiently calculates factorials by iteratively multiplying
+values, producing the factorial result for any non-negative integer input by the user.
 
 Armstrong Numbers: In this it checks if a number entered by the user is an Armstrong number. An Armstrong number (or narcissistic number) is a number that is equal to the sum of its own digits each raised to the power of
 the number of digits. The script begins by prompting the user to input a number (`num3`). It then converts this number to a string (`num3=str(num3)`) to iterate over each digit using a `for` loop. Within the loop, each 
@@ -66,10 +67,21 @@ iteration and arithmetic operations.
 
 Interview Program
 
-Bubble Sort: The program first asks the user how many elements they want to sort. It then prompts the user to enter each element one by one. Then the program sorts the list using the Bubble Sort algorithm. Bubble Sort works by repeatedly stepping through the list, comparing adjacent elements, and swapping them if they are in the wrong order. This process repeats until the list is sorted. The outer loop runs num times to ensure all elements are sorted. The inner loop runs from the start of the list to the second-last element (num - 1), comparing each element with the next one. If an element is greater than the next one, they are swapped and finally, the sorted list is printed.
+Bubble Sort: The program first asks the user how many elements they want to sort. It then prompts the user to enter each element one by one. Then the program sorts the list using the Bubble Sort algorithm. Bubble Sort
+works by repeatedly stepping through the list, comparing adjacent elements, and swapping them if they are in the wrong order. This process repeats until the list is sorted. The outer loop runs num times to ensure all
+elements are sorted. The inner loop runs from the start of the list to the second-last element (num - 1), comparing each element with the next one. If an element is greater than the next one, they are swapped and finally,
+the sorted list is printed.
 
 8- 08dni:
 
+This code calculates the volume of a cube based on user input. It first prompts the user to enter the length of a side of the cube using the `input()` function, which captures the value as a string. The `float()` function
+then converts this input to a floating-point number for precision. The volume of the cube is calculated by raising the side length to the power of 3 using the `**` operator. Finally, the result is printed to the console
+with the message 'Volume of cube is', followed by the calculated volume.
+
 9- 09dni:
+
+This code calculates the simple interest based on user-provided values for the principal amount, number of years, and rate of interest. It first prompts the user to input the principal amount (`p`), the number of years
+(`n`), and the rate of interest (`r`). The principal and number of years are converted to floating-point numbers using `float()` for precision, while the rate of interest is converted to an integer using `int()`. The
+simple interest is then calculated using the formula  SI = P × R × T / 100. Finally, the calculated simple interest (`si`) is printed to the console with the message 'Simple Interest is'.
 
 10- 10dni:
