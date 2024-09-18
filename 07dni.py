@@ -1,7 +1,8 @@
 #Interview Programs
 '''
-6- Bubble Sort
+1- Bubble Sort
 '''
+#1- Bubble Sort
 
 num = int(input("ENTER THE NUMBER OF ELEMENTS TO BE SORTED: "))
 num_list = []
