@@ -5,8 +5,7 @@
 3- Palindrome
 4- Factorials
 5- Armstrong Numbers
-6- Matrix Multiplication
-7- Alphabet Triangle
+6- Denomination of Currency 
 '''
 
 #1- Fibonacci Series
@@ -114,3 +113,21 @@ if num3==num4:
     print(f'{num3} is an Armstrong Number')
 else:
     print(f'{num3} is not an Armstrong Number')
+
+
+#6- Denomination of Currency
+
+note=int(input("ENTER THE AMOUNT: "))
+
+n2000=note//2000
+n500=(note%2000)//500
+n200=((note%2000)%500)//200
+n100=(((note%2000)%500)%200)//100
+n50=((((note%2000)%500)%200)%100)//50
+n20=(((((note%2000)%500)%200)%100)%50)//20
+n10=((((((note%2000)%500)%200)%100)%50)%20)//10
+n5=(((((((note%2000)%500)%200)%100)%50)%20)%10)//5
+n2=((((((((note%2000)%500)%200)%100)%50)%20)%10)%5)//2
+n1=(((((((((note%2000)%500)%200)%100)%50)%20)%10)%5)%2)//1
+
+print(f"{note} INR HAS:\n {n2000}- 2000 INR note\n {n500}- 500 INR note\n {n200}- 200 INR note\n {n100}- 100 INR note\n {n50}- 50 INR note\n {n20}- 20 INR note\n {n10}- 10 INR note\n {n5}- 5 INR coin\n {n2}- 2 INR coin\n {n1}- 1 INR coin")
