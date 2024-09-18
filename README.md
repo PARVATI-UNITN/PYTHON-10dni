@@ -63,6 +63,10 @@ digit (`num5`) is converted back to an integer and raised to the power of 3 (`nu
 the script prints that the number is an Armstrong number; otherwise, it states that it is not. This script effectively determines whether a given number satisfies the Armstrong number condition using straightforward 
 iteration and arithmetic operations.
 
+Denomination of Currency: This code prompts the user to input an amount in Indian Rupees and calculates how many notes and coins of various denominations (2000, 500, 200, 100, 50, 20, 10, 5, 2, and 1 INR)
+are needed to represent that amount. It uses integer division and the modulus operator to determine the number of each denomination step-by-step, breaking down the remaining amount as it processes each note or coin.
+Finally, it outputs the total amount alongside the count of each denomination, formatted for clarity, making it easy for users to see how the total is composed.
+
 7- 07dni:
 
 Interview Program
@@ -85,3 +89,13 @@ This code calculates the simple interest based on user-provided values for the p
 simple interest is then calculated using the formula  SI = P × R × T / 100. Finally, the calculated simple interest (`si`) is printed to the console with the message 'Simple Interest is'.
 
 10- 10dni:
+
+i: In the first program prompts the user to enter a time value in seconds and then calculates the equivalent hours, minutes, and remaining seconds. It begins by determining the number of hours using
+integer division of the total seconds by 3600, which represents the total seconds in one hour. It then calculates the remaining seconds after extracting the hours, and from these remaining seconds, it computes the number
+of minutes using integer division by 60. Finally, it uses the modulus operator to find the leftover seconds that do not form a complete minute. The results are printed in a clear format, indicating how many hours,
+minutes, and seconds correspond to the input value.
+
+ii: The second code also converts seconds into hours, minutes, and seconds but takes a slightly different approach. After the user inputs the total time in seconds, it first calculates the total minutes by
+performing integer division of the seconds by 60. It then finds the remaining seconds using the modulus operator. Next, it calculates the number of hours by dividing the total minutes by 60 and determines the remaining
+minutes using the modulus operator again. The final output is formatted using an f-string, which enhances readability by neatly presenting the calculated hours, minutes, and seconds in a single line. This method also
+effectively communicates the time conversion, ensuring clarity for the user.
