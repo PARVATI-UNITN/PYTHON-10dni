@@ -1,6 +1,7 @@
 #Interview Programs
 '''
 1- Bubble Sort
+2- Check given number is multiple is of a given number(multiplier) and find multiplicand
 '''
 
 #1- Bubble Sort
@@ -20,3 +21,13 @@ for j in range(num):
             num_list[i], num_list[i + 1] = num_list[i + 1], num_list[i]
 
 print("Sorted List:", num_list)
+
+#2- Check given number is multiple is of a given number(multiplier) and find multiplicand
+
+n = int(input("Enter the multiplier: "))
+multiple_of_n = int(input(f"Enter the number to be checked if it's a multiple of {n}: "))
+
+if multiple_of_n%n==0:
+    print(f"{multiple_of_n} is multiple of {n} and the multiplicand is {multiple_of_n/n}")
+else:
+    print(f"{multiple_of_n} is not a multiple of {n}")
