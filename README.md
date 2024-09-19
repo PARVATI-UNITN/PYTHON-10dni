@@ -76,6 +76,12 @@ works by repeatedly stepping through the list, comparing adjacent elements, and 
 elements are sorted. The inner loop runs from the start of the list to the second-last element (num - 1), comparing each element with the next one. If an element is greater than the next one, they are swapped and finally,
 the sorted list is printed.
 
+Check given number is multiple is of a given number(multiplier) and find multiplicand: The code is to check whether a given number is a multiple of another specified number, referred to as the multiplier, and, if so,
+determine the multiplicand. The user first inputs the multiplier, `n`, and then the number to be checked, `multiple_of_n`. The program then evaluates whether `multiple_of_n` is divisible by `n` without a remainder using
+the modulus operator (`%`). If the result is zero, it confirms that `multiple_of_n` is indeed a multiple of `n` and calculates the multiplicand by dividing `multiple_of_n` by `n`. It then prints a message stating that
+`multiple_of_n` is a multiple of `n` and displays the multiplicand. If the number is not a multiple, the program outputs a message stating that `multiple_of_n` is not a multiple of `n`. This code effectively checks for
+divisibility and provides the factor relationship between the two numbers.
+
 8- 08dni:
 
 This code calculates the volume of a cube based on user input. It first prompts the user to enter the length of a side of the cube using the `input()` function, which captures the value as a string. The `float()` function
