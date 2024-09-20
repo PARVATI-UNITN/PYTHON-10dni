@@ -2,6 +2,7 @@
 '''
 1- Bubble Sort
 2- Check given number is multiple is of a given number(multiplier) and find multiplicand
+3- Check the Leap Year
 '''
 
 #1- Bubble Sort
@@ -22,6 +23,7 @@ for j in range(num):
 
 print("Sorted List:", num_list)
 
+
 #2- Check given number is multiple is of a given number(multiplier) and find multiplicand
 
 n = int(input("Enter the multiplier: "))
@@ -31,3 +33,20 @@ if multiple_of_n%n==0:
     print(f"{multiple_of_n} is multiple of {n} and the multiplicand is {multiple_of_n/n}")
 else:
     print(f"{multiple_of_n} is not a multiple of {n}")
+
+
+#3- Check the Leap Year 
+
+year=int(input("ENTER THE YEAR TO BE CHECKED (LEAP-YEAR OR NOT): "))
+if year%100==0:
+    print(f"THE YEAR {year} IS A CENTUARY",end=" ")
+    if year%400==0:
+        print(f"AND IS A LEAP YEAR.")
+    else:
+        print(f"AND IS NOT A LEAP YEAR.")
+elif year%4==0:
+    print(f"THE YEAR {year} IS A LEAP YEAR.")
+else:
+    print(f"THE YEAR {year} IS NOT LEAP YEAR.")
+
+print(6/2)
