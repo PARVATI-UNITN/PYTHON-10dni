@@ -82,6 +82,11 @@ the modulus operator (`%`). If the result is zero, it confirms that `multiple_of
 `multiple_of_n` is a multiple of `n` and displays the multiplicand. If the number is not a multiple, the program outputs a message stating that `multiple_of_n` is not a multiple of `n`. This code effectively checks for
 divisibility and provides the factor relationship between the two numbers.
 
+Check the Leap Year: The code checks if a user-inputted year is a leap year and whether it is a century year. First, the user is prompted to enter a year, which is then stored as an integer in the `year` variable. The
+code then determines if the year is a century year by checking if it is divisible by 100. If it is, it further checks if it is also divisible by 400. A year divisible by both 100 and 400 is a leap year, while a century
+year not divisible by 400 is not a leap year. If the year is not a century year, the code checks if it is divisible by 4, in which case it is a leap year. Otherwise, it is not a leap year. The result is printed
+accordingly. The final line of the code performs a simple division, printing the result of `6 / 2`, which is `3.0`.
+
 8- 08dni:
 
 This code calculates the volume of a cube based on user input. It first prompts the user to enter the length of a side of the cube using the `input()` function, which captures the value as a string. The `float()` function
