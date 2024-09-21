@@ -3,6 +3,7 @@
 1- Bubble Sort
 2- Check given number is multiple is of a given number(multiplier) and find multiplicand
 3- Check the Leap Year
+4- Perfect numbers between 100
 '''
 
 #1- Bubble Sort
@@ -50,3 +51,16 @@ else:
     print(f"THE YEAR {year} IS NOT LEAP YEAR.")
 
 print(6/2)
+
+
+#4- Perfect numbers between 100
+
+for i in range(1,100):
+    f = 0
+    for j in range(1, i):
+        if i % j == 0:
+            f = f + j
+    if i == f:
+        print(f"{f} PERFECT NUMBER")
+    else:
+        print(f'{i} NOT PERFECT NUMBER')
