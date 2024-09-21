@@ -87,6 +87,11 @@ code then determines if the year is a century year by checking if it is divisibl
 year not divisible by 400 is not a leap year. If the year is not a century year, the code checks if it is divisible by 4, in which case it is a leap year. Otherwise, it is not a leap year. The result is printed
 accordingly. The final line of the code performs a simple division, printing the result of `6 / 2`, which is `3.0`.
 
+Perfect numbers between 100: The Python code is designed to identify and print all perfect numbers between 1 and 100. A perfect number is one that is equal to the sum of its proper divisors, excluding the number
+itself. The outer loop iterates through each integer i from 1 to 99. For each i, an inner loop sums up all its divisors, which are stored in the variable f. If the sum of the divisors f equals i, then i is a perfect
+number, and the program prints that i is a "PERFECT NUMBER". Otherwise, it prints that i is "NOT PERFECT NUMBER". The code correctly identifies perfect numbers such as 6 and 28, while also indicating which numbers are
+not perfect.
+
 8- 08dni:
 
 This code calculates the volume of a cube based on user input. It first prompts the user to enter the length of a side of the cube using the `input()` function, which captures the value as a string. The `float()` function
